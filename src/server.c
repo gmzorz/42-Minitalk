@@ -6,16 +6,11 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/10 12:29:23 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/18 12:07:03 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:14:35 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <minitalk.h>
-#include <utils.h>
-#include <unistd.h>
-#include <stdint.h>
-#include <stdlib.h>
-#include <signal.h>
 
 static void	showpid(void)
 {

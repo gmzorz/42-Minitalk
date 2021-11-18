@@ -6,15 +6,11 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/10 14:58:13 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/18 12:07:03 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:14:05 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <minitalk.h>
-#include <unistd.h>
-#include <signal.h>
-#include <utils.h>
-#include <limits.h>
 
 void	*receive_signal_feedback(int signal, siginfo_t *info)
 {

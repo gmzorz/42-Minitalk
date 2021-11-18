@@ -6,12 +6,11 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/11 13:55:37 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/17 15:10:45 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:14:20 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <minitalk.h>
-#include <unistd.h>
 
 void	*get_server_context(void)
 {

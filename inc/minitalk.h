@@ -6,7 +6,7 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/11 12:12:47 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/18 12:11:00 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:13:57 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@
 # include <stdbool.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
 # define ERR_BAD_PID			"Could not locate server PID"
 # define ERR_STARTUP			"No arguments supplied (\"PID\" \"MESSAGE\")"
 # define ERRMSG					"\033[0;31mError:\n  \033[0m"
