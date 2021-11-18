@@ -6,7 +6,7 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/10 12:29:23 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/17 14:21:15 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:07:03 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,7 @@ static bool	wait_for_message(void)
 	write(1, context->message + buf_pos, context->msg_length - buf_pos);
 	free(context->message);
 	while (kill(context->pid, SIGUSR2) != -1)
-		usleep(42);
+		usleep(100);
 	return (true);
 }
 

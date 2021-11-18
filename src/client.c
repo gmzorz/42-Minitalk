@@ -6,7 +6,7 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/10 14:58:13 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/17 14:21:02 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:07:03 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -53,6 +53,6 @@ int	main(int argc, char **argv)
 	encode_header(feedback->pid, message_length);
 	encode_message(feedback->pid, argv[2]);
 	while (feedback->received == false)
-		usleep(42);
+		usleep(100);
 	return (EXIT_SUCCESS);
 }

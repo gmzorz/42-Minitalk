@@ -6,7 +6,7 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/12 14:08:35 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/18 11:06:12 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:07:03 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ void	encode_header(const int32_t pid, const int32_t header)
 		if (kill(pid, signal) == -1)
 			exit(EXIT_FAILURE);
 		pause();
-		usleep(42);
+		usleep(100);
 		bit_pos += 1;
 	}
 }
@@ -55,7 +55,7 @@ void	encode_message(const int32_t pid, const char *message)
 			if (kill(pid, signal) == -1)
 				exit(EXIT_FAILURE);
 			pause();
-			usleep(42);
+			usleep(100);
 			bit_pos += 1;
 		}
 		char_pos += 1;
