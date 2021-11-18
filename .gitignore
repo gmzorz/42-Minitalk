@@ -1,0 +1,13 @@
+.gitignore~
+.DS_Store
+src/client.o
+src/decode.o
+src/encode.o
+src/error.o
+src/redirect_client.o
+src/redirect_server.o
+src/server.o
+src/utils.o
+src/writing.o
+server
+client

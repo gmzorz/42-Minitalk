@@ -1,0 +1,6 @@
+./client $1 "testonetwothree test 1 2 3 4"
+./client $1 "$(< src/decode.c)"
+./client $1 "$(< src/client.c)"
+./client $1 "$(< src/decode.c)"
+./client $1 "$(< src/server.c)"
+./client $1 "$(< beemovie.txt)"
