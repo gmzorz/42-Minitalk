@@ -6,7 +6,7 @@
 /*   By: goosterl <goosterl@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/11/11 12:12:47 by goosterl      #+#    #+#                 */
-/*   Updated: 2021/11/17 14:11:30 by goosterl      ########   odam.nl         */
+/*   Updated: 2021/11/18 12:11:00 by goosterl      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,12 +24,6 @@
 # define MESSAGE_ALLOC_FAILURE	"Failed to allocate memory for message"
 # define SIGNAL_USR				int
 # define BUFFER_SIZE			128
-
-typedef enum e_contextparam
-{
-	FREE_MEMORY,
-	DO_SOMETHING
-}	t_contextparam;
 
 typedef struct s_sigcontext
 {
